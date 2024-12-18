@@ -9,9 +9,9 @@
   --color-white: #ffffff;
   --color-black: #000000;
   --color-gray: #a9a9a9;
-  --color-dark-gray: #7F7F7F;
-  --color-blue: #4D79FF;
-  --color-light-blue: #697FBF;
+  --color-dark-gray: #7f7f7f;
+  --color-blue: #4d79ff;
+  --color-light-blue: #697fbf;
 }
 
 html {
@@ -45,9 +45,16 @@ img {
   height: auto;
 }
 
+body {
+  background-color: #ffffff;
+  background-image: linear-gradient(90deg, #cedcec80 0.5px, transparent 0.5px), linear-gradient(#cedcec80 0.5px, transparent 0.5px);
+  background-position: 10px 10px;
+  background-size: 36.5px 36.5px;
+}
+
 /* タブレット
 ------------------------------------------ */
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   html {
     font-size: 87.5%;
   }
@@ -55,7 +62,7 @@ img {
 
 /* PC
 ------------------------------------------ */
-@media screen and (min-width:960px) {
+@media screen and (min-width: 960px) {
   html {
     font-size: 100%;
   }
