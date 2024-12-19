@@ -1,0 +1,13 @@
+.subject {
+  margin-top: 2.5rem;
+}
+
+.subject__title {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.3rem;
+}
+
+.blue {
+  color: var(--color-light-blue);
+}
